@@ -1,0 +1,710 @@
+img {
+    width: 100%;
+}
+
+/*burgermenustart*/
+.hidden {
+    transform: scale(0);
+}
+
+
+
+
+
+#menuknap {
+    color: blue;
+    display: inline-block;
+    transform: rotate(180deg);
+    font-size: 3vw;
+    font-family: arial;
+    cursor: pointer;
+    position: absolute;
+
+}
+
+
+
+#menu {
+    background-color: white;
+    font-family: arial;
+    list-style-type: none;
+    transition: transform 1s;
+    transform-origin: top left;
+}
+
+/*******burger menu slut******/
+
+
+h2 {
+    color: blue;
+    font-family: arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 1.7;
+    line-height: 2;
+    padding: 0.5em;
+
+}
+
+p {
+    margin: 0.5em;
+    color: black;
+    font-family: "Courier New", monospace;
+    font-size: 1em;
+    font-weight: 1.7;
+    line-height: 2;
+}
+
+h3 {
+    margin: 0.5em;
+    color: black;
+    font-family: "Courier New", monospace;
+    font-size: 1em;
+    font-weight: 1.7;
+    line-height: 2;
+}
+
+h1 {
+    color: #2015ff;
+    font-family: arial;
+    font-weight: 1.5;
+    font-size: 5rem;
+    text-align: center;
+    margin-left: 0;
+    margin-right: 0;
+    margin: 0 auto;
+
+}
+
+#line {
+    flex-basis: auto;
+    flex-grow: 1;
+    width: 100%;
+    margin: 1em;
+    padding: 1em;
+}
+
+/*stilartsite start*/
+
+/* start*/
+#start {
+    width: 100vw;
+    padding: 0;
+}
+
+#start .index_header {
+    font-size: 13vw;
+    align-content: center;
+    font-family: arial;
+    padding: 0px
+}
+
+#start .sectionwrapper {
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 3em;
+    margin: 3em;
+    justify-content: space-between;
+
+
+}
+
+#start .h1 {}
+
+
+
+#start .column {
+
+    flex-basis: 200px;
+    flex-grow: 2;
+    padding: 1em;
+    margin: 1em;
+
+}
+
+#start .column_am {
+
+    flex-basis: 200px;
+    flex-grow: 2;
+    padding: 1em;
+    margin: 1em;
+
+}
+
+#start .column_am:hover {
+    transform: scale(1.3)
+}
+
+#line .start {
+    flex-basis: 300px;
+    flex-grow: 1;
+    width: 60%;
+    margin: 1em;
+    padding: 1em;
+}
+
+/*start slut*/
+
+/* moodboard*/
+
+
+
+
+/*moodboard slut*/
+
+/* stilartsite */
+
+
+#stilartsite .sectionwrapper {}
+
+#stilartsite .column {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 3em;
+    margin: 3em;
+    box-sizing: content-box;
+    border: 15px solid #2015ff;
+    flex-direction: row;
+
+}
+
+#stilartsite .image_left {
+    flex-basis: 200px;
+    flex-grow: 1;
+    padding: 1em;
+    margin: 1em;
+}
+
+#stilartsite .image_left:hover {
+    transform: scale(1.3)
+}
+
+#stilartsite .image_right {
+    flex-basis: 200px;
+    flex-grow: 1;
+    margin: 1em;
+    padding: 1em;
+
+}
+
+#stilartsite .image_right:hover {
+    transform: scale(1.3)
+}
+
+#stilartsite .lower_column {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 1em;
+    margin: 1em;
+
+}
+
+#stilartite .column_right1 {
+    flex-basis: 300px;
+    flex-grow: 1;
+
+}
+
+
+#stilartsite .column_left1 {
+    flex-basis: 300px;
+    flex-grow: 1;
+}
+
+/*stilartsite slut*/
+
+/* redesign og pilotopgave*/
+
+#redesign .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0.5em;
+    margin: 0.5em;
+
+}
+
+#redesign h1 {
+    font-family: arial;
+}
+
+#redesign .video video {
+    width: calc(100vw - 2em - 16px);
+}
+
+#redesign .column_txt {
+    flex-basis: 300px;
+    flex-grow: 1;
+    font-family: arial;
+    line-height: 2;
+    padding: 2em;
+    margin: 1em;
+}
+
+#line {
+
+    width: 100%;
+}
+
+#redesign .column_narrow {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    box-sizing: content-box;
+    border: 15px solid #2015ff;
+
+}
+
+#redesign .column_img1 {
+    flex-basis: 200px;
+    flex-grow: 1;
+    margin: 1em;
+    padding: 1em;
+
+}
+
+#redesign .column_img1:hover {
+    transform: scale(1.3)
+}
+
+#redesign .column_img2 {
+    flex-basis: 200px;
+    flex-grow: 1;
+    margin: 1em;
+    padding: 1em;
+    flex-basis: 200px;
+    flex-grow: 1;
+}
+
+#redesign .column_img2:hover {
+    transform: scale(1.3)
+}
+
+#redesign .column_img3 {
+    flex-basis: 200px;
+    flex-grow: 1;
+    margin: 1em;
+    padding: 1em;
+    flex-basis: 200px;
+    flex-grow: 1;
+}
+
+#redesign .column_img3:hover {
+    transform: scale(1.3)
+}
+
+#redesign .column_narrow_lower {
+    box-sizing: content-box;
+    width: 40vw;
+    height: 50vw;
+    background-color: lightgray;
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+    font-family: arial;
+    flex-basis: 300px;
+    flex-grow: 1;
+    margin: 1em;
+    padding: 1em;
+    font-weight: 2;
+}
+
+#redesign .column_narrow_txt {
+    padding: 1em;
+    margin: 1em;
+}
+
+
+
+
+
+/** redesign slut **/
+
+/*spil*/
+#spil_lucy .h2 {
+    padding: 1em;
+    margin: 1em;
+    font-family: arial;
+    font-size: 2rem;
+
+}
+
+#spil_lucy .spil_txt {
+    padding: 1em;
+    margin: 1em;
+}
+
+#spil_lucy .spil_text_1 {
+
+    padding: 1em;
+    margin: 1em;
+}
+
+#spil_lucy .spil_header {}
+
+#spil_lucy .spil_lucy {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 1em;
+    margin: 1em;
+    box-sizing: content-box;
+    border: 15px solid #2015ff;
+}
+
+#spil_lucy .column_lucy1 {
+    padding: 1em;
+    margin: 1em;
+    flex-basis: 300px;
+    flex-grow: 1;
+}
+
+#spil_lucy .column_lucy1:hover {
+    transform: scale(1.3)
+}
+
+#spil_lucy .column_lucy2 {
+    padding: 1em;
+    margin: 1em;
+    flex-basis: 300px;
+    flex-grow: 1;
+}
+
+#spil_lucy .column_lucy2:hover {
+    transform: scale(1.3)
+}
+
+#spil_lucy .column_lucy3 {
+    padding: 1em;
+    margin: 1em;
+    flex-basis: 300px;
+    flex-grow: 1;
+}
+
+#spil_lucy .column_lucy3:hover {
+    transform: scale(1.3)
+}
+
+#spil_lucy .h3 {
+    background-color: #eaeaea;
+    text-transform: lowercase;
+    flex-basis: 300px;
+    flex-grow: 1;
+    padding: 1em;
+    margin: 1em;
+
+}
+
+.spil_img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+
+}
+
+#spil_img .column_scene {
+    box-sizing: content-box;
+    border: solid 15px #2015ff;
+    flex-grow: 1;
+    flex-basis: 300px;
+    padding: 1em;
+    margin: 1em;
+}
+
+
+#line {
+    flex-basis: auto;
+    flex-grow: 1;
+    width: 100%;
+    margin: 1em;
+    padding: 1em;
+}
+
+
+
+#over_stregen .column_os {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+    box-sizing: content-box;
+    border: solid 15px #2015ff;
+
+}
+
+#overstregen .h3 {
+    margin: 0.5em;
+    padding: 0.5em;
+}
+
+#over_stregen .img_os1 {
+
+    flex-basis: 300px;
+    flex-grow: 1;
+    padding: 1em;
+    margin: 1em;
+}
+
+#over_stregen .img_os1:hover {
+    transform: scale(1.3);
+}
+
+#over_stregen .img_os2 {
+    flex-basis: 300px;
+    flex-grow: 1;
+    padding: 1em;
+    margin: 1em;
+}
+
+#over_stregen .img_os2:hover {
+    transform: scale(1.3);
+}
+
+
+#over_stregen .img_os3 {
+    flex-basis: 300px;
+    flex-grow: 1;
+    padding: 1em;
+    margin: 1em;
+}
+
+#over_stregen .img_os3:hover {
+    transform: scale(1.3);
+}
+
+
+#over_stregen .column_os_txt {
+    margin: 0 auto;
+    margin-left: 0;
+    margin-right: 0;
+    flex-basis: 300px;
+    flex-grow: 1;
+}
+
+#over_stregen .text_os {}
+
+
+#over_stregen .column_os1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 1em;
+    margin: 1em;
+
+}
+
+#over_stregen .img_os_4 {
+    box-sizing: content-box;
+    border: solid 15px #2015ff;
+    flex-basis: 300px;
+    flex-grow: 1;
+}
+
+/* spil slut*/
+
+/* ux */
+
+#ux .ux_header {}
+
+#ux .test_fronter {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+#ux .ux_text {
+    flex-basis: 300px;
+    flex-grow: 1;
+    padding: 1em;
+    margin: 1em;
+}
+
+#ux .ux_img1 {
+    flex-basis: 200px;
+    flex-grow: 1;
+    padding: 1em;
+    margin: 1em;
+}
+
+
+
+#ux .ux_prototype {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    box-sizing: content-box;
+    border: solid 15px #2015ff;
+}
+
+#ux .img_landingpage {
+    padding: 1em;
+    margin: 1em;
+    flex-basis: 300px;
+    flex-grow: 1;
+}
+
+#ux .img_skema {
+
+    margin: 1em;
+    padding: 1em;
+    flex-basis: 300px;
+    flex-grow: 1;
+}
+
+#ux .img_notifikation {
+    margin: 1em;
+    padding: 1em;
+    flex-basis: 300px;
+    flex-grow: 1;
+}
+
+#ux .ux_text2 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1em;
+    margin: 1em;
+}
+
+#ux .ux_web {}
+
+
+#ux .ux_images {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+#ux .ux_img1 {
+    box-sizing: content-box;
+    border: solid 10px #2015ff;
+    padding: 0.5em;
+    margin: 0.5em;
+    flex-basis: 300px;
+    flex-grow: 1;
+}
+
+#ux .ux_img2 {
+    box-sizing: content-box;
+    border: solid 10px #2015ff;
+    padding: 0.5em;
+    margin: 0.5em;
+    flex-basis: 300px;
+    flex-grow: 1;
+}
+
+#ux .ux_img3 {
+    box-sizing: content-box;
+    border: solid 10px #2015ff;
+    padding: 0.5em;
+    margin: 0.5em;
+    flex-basis: 300px;
+    flex-grow: 1;
+}
+
+
+#ux .keaffe {}
+
+#ux .ux_text3 {
+    flex-basis: 300px;
+    flex-grow: 1;
+}
+
+#ux .app_text2 {}
+
+.keaffe .keaffe_img {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    box-sizing: content-box;
+    border: solid 10px #2015ff;
+}
+
+.keaffe .keaffe_pic_1 {
+
+    padding: 1em;
+    margin: 1em;
+    flex-basis: 150px;
+    flex-grow: 1;
+}
+
+.keaffe .keaffe_pic_1:hover {
+    transform: scale(1.3)
+}
+
+.keaffe .keaffe_pic_2 {
+
+    padding: 1em;
+    margin: 1em;
+    flex-basis: 150px;
+    flex-grow: 1;
+}
+
+.keaffe .keaffe_pic_2:hover {
+    transform: scale(1.3)
+}
+
+.keaffe .keaffe_pic_3 {
+
+    padding: 1em;
+    margin: 1em;
+    flex-basis: 150px;
+    flex-grow: 1;
+}
+
+.keaffe .keaffe_pic_3:hover {
+    transform: scale(1.3)
+}
+
+
+#ux .keaffe_text3 {
+    background-color: #eaeaea;
+    padding: 1em;
+    margin: 1em;
+}
+
+/*ux slut*/
+
+/* about */
+#about .h1 {}
+
+#about .about_text {
+    box-sizing: content-box;
+    border: solid 10px #2015ff;
+
+    padding: 1em;
+    margin: 1em;
+    line-height: 0.5;
+    line-height: 2;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+#about .portfolio {
+    flex-basis: 300px;
+    flex-grow: 1;
+}
+
+#about .portfolio:hover {
+    transform: scale(1.3)
+}
+
+#about .contact {
+
+    flex-basis: 300px;
+    flex-grow: 1;
+}
+
+
+#about .about_paragraph {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+#bio .bio {
+    flex-basis: 300px;
+    flex-grow: 1;
+}
